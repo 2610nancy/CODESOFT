@@ -1,0 +1,67 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+ }
+ body h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: bolder;
+    background-color: #b7acac;
+ }
+ .container{
+    align-items: center !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #cfc7bf;
+ }
+ .calculator{
+    background-color: #000000;
+    border-radius: 4%;
+    box-shadow: -5px -6px 17px black, 7px 9px 9px dimgrey;
+    padding: 22px;
+ }
+/* paradise kiss */
+ .calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    border-radius: 10px;
+    box-shadow: 0px -1px 4px white, 1px -2px 0px darkgrey;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+ }
+ .calculator form input:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 7px rgb(221, 218, 218);
+}
+ form .display{
+    display: flex;
+    justify-content: right;
+    margin: 20px 0px;
+ }
+
+ form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    background-color: whitesmoke;
+    color: black;
+ }
+
+ form input.equal{
+    width: 145px;
+ }
+
+form input.operator{
+    color:#33ffd8;
+ }
